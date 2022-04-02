@@ -159,10 +159,7 @@ letter-spacing: 0.03em;
 color: #212121;    
 margin-bottom: 50px;
 }
-.our-team-section {
-background: #F5F4FA; 
-padding: 94px 0;   
-}
+
 .name-person {
 font-family: 'Roboto';
 font-weight: 500;
@@ -187,9 +184,9 @@ color: #757575;
     display: flex;
     justify-content: space-between;
 }
-.fff {
+/* .fff {
     max-width: 270px;
-}
+} */
 .special {
     padding: 94px 0;
 }
@@ -204,6 +201,10 @@ color: #757575;
 
 
 /* OUR COMAND */
+.our-team-section {
+    background: #F5F4FA; 
+    padding: 94px 0;   
+    }
 
 .our-team-list {
     display: flex;
@@ -271,7 +272,7 @@ color: rgba(255, 255, 255, 0.6);
 .filters-button-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
 }   
 .filters-button:hover{
@@ -318,10 +319,19 @@ color: #757575;
     padding: 94px 0;
 }
 
-/* __PORTFOLIO_GALERY */
 
 .portfolio-list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.portfolio-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin-top: 30px;
+
+}
+.portfolio-item-block {
+    padding: 24px 20px;
+    text-align: left;
+}   
